@@ -1,0 +1,37 @@
+Package: netmediate
+Type: Package
+Title: Micro-macro Analysis for Social Networks
+Version: 0.1.0
+Authors@R: person("Scott", "Duxbury",email="duxbury@email.unc.edu", role=c("aut", "cre", "cph"))
+Maintainer: Scott Duxbury <duxbury@email.unc.edu>
+Description: Estimates micro effects on macro structures (MEMS) and average micro mediated effects (AMME) when using statistical models for network structure.
+	URL: <https://github.com/sduxbury/netmediate>.
+	BugReports: <https://github.com/sduxbury/netmediate/issues>.
+	Long, J. Scott, and Sarah Mustillo (2018) <doi:10.1177/0049124118799374>.
+   	Mize, Trenton D. (2019) <doi:10.15195/v6.a4>.
+	Imai, Kosuke (2010) <doi:10.1037/a0020761>.
+	Imai, Kosuke (2010) <doi:10.1214/10-STS321>.
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: false
+Imports:
+	MASS,
+	btergm,
+	stats,
+	ergm,
+	RSiena,
+	sna,
+	network,
+	ergMargins,
+	VGAM,
+	plyr,
+	lme4,
+	plm,
+	gam,
+	intergraph
+Suggests:
+	Matrix,
+	igraph,
+	relevent,
+	statnet,
+	statnet.common
