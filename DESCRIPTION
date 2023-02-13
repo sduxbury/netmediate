@@ -1,0 +1,31 @@
+Package: netmediate
+Type: Package
+Title: Micro-macro Analysis for Social Networks
+Version: 0.1.1
+Authors@R: person("Scott", "Duxbury",email="duxbury@email.unc.edu", role=c("aut", "cre", "cph"))
+Maintainer: Scott Duxbury <duxbury@email.unc.edu>
+Description: Estimates micro effects on macro structures (MEMS) and average micro mediated effects (AMME).
+License: GPL (>=2)
+Imports:
+	MASS,
+	btergm,
+	stats,
+	ergm,
+	RSiena,
+	sna,
+	network,
+	ergMargins,
+	VGAM,
+	plyr,
+	lme4,
+	plm,
+	gam,
+	intergraph
+Suggests:
+	Matrix,
+	igraph,
+	relevent,
+	statnet,
+	statnet.common
+Encoding: UTF-8
+LazyData: true
